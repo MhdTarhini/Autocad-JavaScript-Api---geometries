@@ -4,10 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./autocade.js"></script>
     <title>Document</title>
 </head>
-
+<!-- //https://df-prod.autocad360.com/jsapi/v3/Autodesk.AutoCAD.js  AutoCAD API-->
 <body>
+<h1>AutoCad Shapes</h1>
+<ul>
+    <li>
+        <button id='square' onclick="selectShape(this.id)">⬜</button>
+    </li>
+    <li>
+        <button id='circle' onclick="selectShape(this.id)">⚪</button>
+    </li>
+    <li>
+        <button id='triangle' onclick="selectShape(this.id)">▲</button>
+    </li>
+</ul>
 
 </body>
 
